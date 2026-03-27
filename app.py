@@ -1,6 +1,8 @@
 import streamlit as st
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 import torch
+# Day 3 Practice: Testing Branching and Merging
+print("Feature update is working!")
 
 st.set_page_config(page_title="AI News Summarizer", page_icon="📰")
 st.title(" AI News Summarizer")
